@@ -1,0 +1,5 @@
+﻿add_subdirectory(pngs)
+add_subdirectory(sounds)
+add_subdirectory(music)
+add_subdirectory(levels)
+configure_file ("ariblk.ttf" ${CMAKE_BINARY_DIR} COPYONLY)
