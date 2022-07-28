@@ -1,0 +1,7 @@
+﻿target_include_directories (${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+add_subdirectory(box2d)
+add_subdirectory(animation)
+add_subdirectory(objects)
+add_subdirectory(Res)
+add_subdirectory(objects/zombieParts)
+add_subdirectory(button)
